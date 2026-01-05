@@ -1,0 +1,20 @@
+{
+  "name": "unlock.vet",
+  "version": "0.1.0",
+  "description": "Location-centric veteran benefits intelligence",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest",
+    "validate": "node scripts/validate-data.js"
+  },
+  "keywords": [
+    "veterans",
+    "benefits",
+    "va",
+    "military"
+  ],
+  "license": "MIT"
+}
