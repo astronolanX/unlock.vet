@@ -8,7 +8,12 @@
     "build": "next build",
     "start": "next start",
     "test": "vitest",
-    "validate": "node scripts/validate-data.js"
+    "validate": "node scripts/validate-data.js",
+    "poc:va": "tsx --env-file=.env.local src/poc/va-api-test.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
   },
   "keywords": [
     "veterans",
